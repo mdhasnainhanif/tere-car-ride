@@ -1,10 +1,11 @@
+
 .styled_button {
-  background-color: $theme_green;
+  background-color: #75BF7A;
   border: none;
   padding: 10px 10px;
   border-radius: 9px;
   color: $light;
-  font-family: gilroy;
+  // font-family: gilroy;
   font-weight: 600;
   letter-spacing: 1px;
 
@@ -15,25 +16,25 @@
 
   // colors
 
-  &.danger {
-    background-color: $danger;
-    color: $light;
-  }
-  &.dark {
-    background-color: $dark;
-    color: $light;
-  }
-  // sizes
+  // &.danger {
+  //   background-color: $danger;
+  //   color: $light;
+  // }
+  // &.dark {
+  //   background-color: $dark;
+  //   color: $light;
+  // }
+  // // sizes
 
-  &.sm {
-    padding: 4px 10px;
-  }
-  &.xsm {
-    padding: 2px 10px;
-  }
-  &.md {
-    padding: 8px 10px;
-  }
+  // &.sm {
+  //   padding: 4px 10px;
+  // }
+  // &.xsm {
+  //   padding: 2px 10px;
+  // }
+  // &.md {
+  //   padding: 8px 10px;
+  // }
 
 
 }
