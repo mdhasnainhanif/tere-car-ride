@@ -27,7 +27,7 @@ const Banner = () => {
                   <Button className="dark d-flex align-items-center px-3">
                     <FaGooglePlay /> &nbsp;
                     {/* <img src={require("/")} alt="" /> */}
-                    Download
+                    Download 
                   </Button>
                   <Button className="dark d-flex align-items-center ms-3 px-3">
                     <FaAppStoreIos /> &nbsp;

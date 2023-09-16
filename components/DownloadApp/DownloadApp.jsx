@@ -17,8 +17,8 @@ const DownloadApp = () => {
             </div>
             <div className="col-md-8">
                 <div className="input_div d-flex align-items-center d-flex mt-0 mt-md-2">
-                    <input className="border-0 px-2 rounded mt-3 mt-md-0 w-75 me-2" placeholder="Enter mobile phone number" type="nuumber" name="" id="" />
-                <Button className='btn btn-dark px-3 apply_btn mt-3 mt-md-0'>APPLY TO DRIVE</Button>
+                    <input className="border-0 px-2 rounded mt-3 mt-md-0 w-75 me-2" placeholder="Enter mobile phone number" type="number" name="" id="" />
+                <Button className='btn px-3 apply_btn mt-3 mt-md-0 dark'>APPLY TO DRIVE</Button>
                 </div>
 
            
