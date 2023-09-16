@@ -1,0 +1,32 @@
+.input_div {
+  input {
+    padding: 10px 15px;
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
+}
+.w-70 {
+  width: 70%;
+}
+.apply_btn {
+  padding: 10px 15px;
+  margin-left: 10px;
+  width: 220px;
+}
+@media (max-width: 768px) {
+  .apply_btn {
+    width: 100% !important;
+    margin-left: 0px;
+  }
+  .download_text {
+    text-align: center;
+  }
+  .input_div{
+    flex-wrap: wrap;
+    input{
+        width: 100% !important;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: #F9F9F9 !important;
+  }
+  @font-face {
+    font-family: 'gilroy';
+    src: url(../public/Gilroy-FREE/Gilroy-Light.otf);
+  }
+  @font-face {
+    font-family: 'gilroy-bold';
+    src: url(../public/Gilroy-FREE/Gilroy-ExtraBold.otf);
+  }
+  .fs_20{
+    font-size: 20px;
+  }
+  .theme_font{
+    font-family: "gilroy";
+  }
+  .theme_font_bold{
+    font-family: "gilroy-bold";
+  }
+  .bg_theme_green{
+    background-color: $theme_green;
+  }
+  .text_green{
+    color: $theme_green !important;
+  }
+  .fs_400{
+    font-weight: 500px !important;
+  }
